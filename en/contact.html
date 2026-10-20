@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – Deepcore Research</title>
+  <meta name="description" content="Contact Deepcore Research for partnerships, technical inquiries or information.">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container header-content">
+      <a href="index.html" class="logo">
+        <img src="../images/logo.png" alt="Deepcore Research">
+        <div class="logo-text">
+          DEEPCORE
+          <span>RESEARCH</span>
+        </div>
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="contact.html">Contact</a>
+        <span class="lang-switch">
+          <a href="../contact.html">FR</a> |
+          <a href="contact.html">EN</a>
+        </span>
+      </nav>
+    </div>
+  </header>
+
+  <section style="padding-top: 60px;">
+    <div class="container">
+      <h2>Contact</h2>
+      <p style="margin-bottom: 20px; font-size: 1.1rem;">
+        For any information request, partnership inquiry or technical exchange, you can write to us via the form below or by email.
+      </p>
+
+      <div class="grid" style="margin-bottom: 10px;">
+        <div class="card">
+          <h3>Email</h3>
+          <p style="margin-top: 10px;">
+            <a href="mailto:contact@deepcore-research.org" style="color: #00D4FF; text-decoration: none;">
+              contact@deepcore-research.org
+            </a>
+          </p>
+        </div>
+        <div class="card">
+          <h3>Partnerships</h3>
+          <p style="margin-top: 10px;">
+            Industrial and institutional collaborations as well as targeted research projects.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Technical Inquiries</h3>
+          <p style="margin-top: 10px;">
+            Quantum, photonics, humanoids, defense, interconnects, advanced materials.
+          </p>
+        </div>
+      </div>
+
+      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <label for="name">Full name *</label>
+        <input type="text" id="name" name="name" required placeholder="Your name">
+
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required placeholder="your@email.com">
+
+        <label for="subject">Subject *</label>
+        <select id="subject" name="subject" required>
+          <option value="">— Select —</option>
+          <option value="Partnership">Partnership</option>
+          <option value="Technical inquiry">Technical inquiry</option>
+          <option value="General information">General information</option>
+          <option value="Other">Other</option>
+        </select>
+
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" required placeholder="Your message..."></textarea>
+
+        <input type="text" name="_gotcha" style="display:none">
+
+        <button type="submit">Send message</button>
+
+        <p class="form-note">
+          * Required fields. Your data is only used to get back to you.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Deepcore Research – Deep Technologies & Sovereignty</p>
+    </div>
+  </footer>
+
+</body>
+</html>
